@@ -9,3 +9,10 @@ dist/
 .playwright-mcp/
 .superpowers/
 .claude/
+
+# Client docs (binary)
+docs/*.pdf
+
+# Playwright screenshots
+*.png
+!public/*.png

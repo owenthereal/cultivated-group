@@ -10,7 +10,7 @@ CultivatED Group company website — ECE consulting services and platform. Domai
 
 - **Framework:** Astro (static output, will switch to SSR with `@astrojs/cloudflare` when backend needed)
 - **Styling:** Tailwind CSS
-- **Deployment:** Cloudflare Pages
+- **Deployment:** Cloudflare Pages (project: `cultivated-group`, domain: cultivatedgroup.ca)
 - **Future backend:** Cloudflare D1 (database), R2 (file storage), Workers (API)
 
 ## Build & Development Commands
@@ -19,6 +19,7 @@ npm install          # Install dependencies
 npm run dev          # Start dev server
 npm run build        # Build for production (output: dist/)
 npm run preview      # Preview production build
+npm run deploy       # Build and deploy to Cloudflare Pages
 
 ## Design System
 
